@@ -73,7 +73,20 @@ a {
     align-items: center;
   }
   
-
+  /* Tablet Styles */
+@media only screen and (min-width: 480px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* Desktop Styles */
+@media only screen and (min-width: 1024px) {
+    .grid-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
 .rt-container {
     margin: 0 auto;
     padding: 0 12px;
